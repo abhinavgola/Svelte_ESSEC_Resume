@@ -2,12 +2,14 @@
 
 
 <script lang='ts'>
+  import { onMount } from 'svelte';
   export let name: string;
   export let percentage: number;
   export let icon: string;
   
   $: percent = 0
-  const multiplier: number = 2  
+  const multiplier: number = 1.9
+  
   const animation = async () => {
     for (let i=0; i < percentage/multiplier; i++){
       await (async () => {
@@ -16,10 +18,11 @@
         })
       })()
     }
-
   }
-  animation()
+  
+  onMount(() => animation())
 </script>
+
 <div class='py-5'>
   <p class='py-1 text-xl text-gray-700 font-semibold'>{name}</p>
   <div class='w-full h-10 rounded bg-gray-300 '>
