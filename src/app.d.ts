@@ -8,3 +8,11 @@ declare namespace App {
 	// interface Session {}
 
 }
+
+type ExperienceItem = {
+  id: number,
+  role: string,
+  business: string,
+  date: string,
+  items: Array<string>
+}

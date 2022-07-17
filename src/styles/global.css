@@ -29,8 +29,17 @@ html, body{
   font-family: 'Open Sans', sans-serif;
   color: var(--black-color);
 	scroll-behavior: smooth;
-	scrollbar-color: grey var(--black-color);
   background: #0A192F; 
+
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--gray) !important;
+}
+body::-webkit-scrollbar-track {
+  background: var(--primary) !important;
 }
 
 /* ------------------------------------------- MAIN SECTION */
@@ -46,6 +55,8 @@ html, body{
 	-webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
+  --scrollbar-thumb: var(--background) !important;
+  --scrollbar-track: var(--primary) !important;
 }
 
 .text-green-400{
@@ -86,10 +97,14 @@ html, body{
 }
 
 .bg-secondary {
-  background-color: #133040;
+  background-color: #112240;
 
 }
 
+.hover-bg-secondary:hover {
+  background-color: #112240;
+
+}
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -145,7 +160,8 @@ nav {
 :root {
   --primary: #0A192F;
   --secondary: #22D2A0;
-  --background: #133040;
+  --background: #112240;
+  --gray:  #8892B0;
 } 
 .card {
   background-color: var(--background);
@@ -166,9 +182,10 @@ nav {
     10px 10px 0 -3px var(--primary), 10px 10px var(--secondary);
 }
 
-
-@keyframes shadow-wave {
-
-  
+.scrollbar-thumb {
+  --scrollbar-thumb: var(--background) !important;
 }
 
+.scrollbar-track {
+  --scrollbar-track: var(--primary) !important;
+}
