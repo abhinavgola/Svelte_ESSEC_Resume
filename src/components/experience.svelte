@@ -8,39 +8,39 @@
   const experiences: ExperienceItem[] = [
     {
       id: 0,
-      role: 'Backend Developer',
-      business: 'Simple Comercio',
-      items: ['Developed and shipped highly interactive web applications for Apple Music using Ember.js','Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs',"Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser",'Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps'],
-      date: 'December 2021 - Present'
+      role: 'Credit Risk Analyst Apprentice',
+      business: 'Societe Generale',
+      items: ['Developed the Referential Data System and worked with the RISQ team to build the IFRS9 PD model (RWA impact > €4 billion) for High-Net-Worth clients using decision tree classification', 'Conducted a data analysis of 450 data controls for 50 data points using SQL & VBA to build the Referential Data System for the IRBA LGD model for High-Net-Worth clients', 'Acted as the Data Quality Manager for the whole Private Banking division, updating past KQIs & implementing new ones in Power BI, presenting my feedback in quarterly meetings to data officers in UK, LUX, MON, FRA & SUI entities of SG Group'],
+      date: 'October 2022 - Present'
     },
     {
       id: 1,
-      role: 'Fullstack Developer',
-      business: 'iTec Labs',
-      items: ['Developed and shipped highly interactive web applications for Apple Music using Ember.js','Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs',"Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser",'Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps'],
-      date: 'March - December 2021'
+      role: 'Digital Project Management Intern',
+      business: "L'Oreal",
+      items: ["Collaborated with department leaders from IT, Business, Finance, Data and Customer Care to define, prioritize, and rollout L'Oréal’s Access 2.0 project in 104 countries","Identified all key tasks, dependencies, and milestones in each team for the Project delivery and worked on SAP integration and Business Process Mapping","Worked with the Finance and Business teams to allocate global, zone and local costs after conducting local gap analysis"],
+      date: 'May 2022 - September 2022'
     },
     
     {
       id: 2,
-      role: 'Backend Developer',
-      business: 'Simple Comercio',
-      items: ['Developed and shipped highly interactive web applications for Apple Music using Ember.js','Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs',"Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser",'Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps'],
-      date: 'December 2021 - Present'
+      role: 'Project Manager Intern',
+      business: 'Zakki',
+      items: ['Coordinated a team of 6 members to develop a volunteer give-away platform for people in Jakarta, Indonesia','Conceived the definition of project scope and roadmap while monitoring the progress through dashboards','Acted as the “product owner” in the Agile team, preparing sprints while collaborating with the product team'],
+      date: 'May 2021 - October 2021'
     },
     {
       id: 3,
-      role: 'Backend Developer',
-      business: 'Simple Comercio',
-      items: ['Developed and shipped highly interactive web applications for Apple Music using Ember.js','Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs',"Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser",'Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps'],
-      date: 'December 2021 - Present'
+      role: 'Product Planning Intern',
+      business: 'LG Electronics India Pt. Ltd.',
+      items: ['Collated and analysed data for 4 competitor organisations – Samsung, IFB, Panasonic and Bosch for the Home and Appliances department; Identified patterns and trends of the most profitable features of their key product: microwave ovens','Sensitivity analysis and business scenarios to identify and monitor key business drivers and risks'],
+      date: 'August 2020 - September 2020'
     },
     {
       id: 4,
-      role: 'Backend Developer',
-      business: 'Simple Comercio',
-      items: ['Developed and shipped highly interactive web applications for Apple Music using Ember.js','Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs',"Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser",'Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps'],
-      date: 'December 2021 - Present'
+      role: 'Deep Learning Intern',
+      business: 'Bennett University',
+      items: ['Led a team of 6 for a face mask detection project focused on Indian society and implemented 3 detection pipelines (based on Python) on a self-created dataset of ~2000 images for real-time mask detection','Converted the YOLO v4 model to the TensorFlowRT model to increase efficiency up to 8 times and deployed it into an application'],
+      date: 'June 2020 - July 2020'
     }
   ]
   let currentExperience: ExperienceItem = experiences[0];

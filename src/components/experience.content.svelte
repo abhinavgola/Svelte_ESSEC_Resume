@@ -8,7 +8,7 @@
       {experience.role} <span> <span class='text-green-400'>@ {experience.business}</span></span>
     </div>
     <div class='font-mono text-sm'>
-      July - December 2021
+      {experience.date}
     </div>
     <div class='pt-2 flex  flex-col  gap-4 '>
       {#each experience.items as item}

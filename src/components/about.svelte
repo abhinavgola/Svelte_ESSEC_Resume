@@ -18,31 +18,32 @@
         <div class='gap-6 font-medium flex items-center justify-center flex-col lg:items-start'>
   
           <span class='text-sm lg:text-lg  text-gray leading-6 lg:leading-8'>
-            Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!}
+            Hello, I am a final year business student at ESSEC Business School, Paris, currently leveraging my analytical prowess as a Credit Risk Analyst in the Private Banking division at Société Générale. My professional journey includes a solid foundation in programming languages and significant experience in the dynamic fields of Data and AI.
           </span>
 
-          <span class='text-sm lg:text-lg  text-gray leading-6 lg:leading-8'>
+       <!--   <span class='text-sm lg:text-lg  text-gray leading-6 lg:leading-8'>
             Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!}
           </span>
+        -->
           <div class='mb-4 text-sm lg:text-lg'>
-            <span class='text-gray '>These are some of the technologies I've been working with: </span>
+            <span class='text-gray '>These are some of the carriers I've worked in: </span>
           </div>
 
           <div class='flex gap-4 w-full max-w-sm lg:max-w-xl items-center justify-between lg:justify-start lg:gap-16 '>
             <div class='flex flex-col gap-4'>
-              <TechItem text={"Typescript"}/>
-              <TechItem text={"NodeJS"}/>
-              <TechItem text={"Express"}/>
+              <TechItem text={"Engineering"}/>
+              <TechItem text={"Marketing"}/>
+              <TechItem text={"Artifical Intelligence"}/>
             </div>
             <div class='flex flex-col  gap-4'>
-              <TechItem text={"SvelteKit"}/>
-              <TechItem text={"NextJS"}/>
-              <TechItem text={"Tailwind CSS"}/>
+              <TechItem text={"Product Management"}/>
+              <TechItem text={"Research"}/>
+              <TechItem text={"Quality Assurance"}/>
             </div>
             <div class='flex flex-col  gap-4'>
-              <TechItem text={"Docker"}/>
-              <TechItem text={"Firebase"}/>
-              <TechItem text={"RabbitMQ"}/>
+              <TechItem text={"Consulting"}/>
+              <TechItem text={"Project Management"}/>
+              <TechItem text={"Credit Risk"}/>
             </div>
           </div>
           
@@ -50,7 +51,7 @@
       </div>
       <div class='flex items-center relative top-16 justify-center lg:w-2/6'>
         <div class='card w-64 lg:w-80 shadow-2xl border-shadow transition hover-press-animation rounded-lg  items-center   flex flex-col  select-none'>
-          <img alt='profile-pic' class='select-none opacity-60 w-full' src={'/images/profilepic.jpg'}/>
+          <img alt='profile-pic' class='select-none opacity-60 w-full' src={'/images/abhinav_image.jpg'}/>
           <div class='flex  text-center  py-6 flex-col items-center lg:items-start '>
             <p class='gap-4 flex flex-col text-sm  font-mono leading-8 lg:leading-8'>				
               {#each data.contactDescription as item}

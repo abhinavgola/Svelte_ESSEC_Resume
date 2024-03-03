@@ -6,7 +6,7 @@
 </script>
 
 <header class='main_section'>
-  <NavBar data={data.navBar} buttonText={data.button}/>
+  <NavBar data={data.navBar} />
   <Content title={data.title} description={data.description} />
   <ArrowDown href='about'/>
 </header>
